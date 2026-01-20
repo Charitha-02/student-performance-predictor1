@@ -1,36 +1,78 @@
-# Student Performance Analysis and Prediction System
+# Student Performance Prediction System
 
-![banner (1)](https://github.com/user-attachments/assets/e104358b-6667-483a-9015-fc064ce42507)
+This project focuses on analyzing and predicting student academic performance using machine learning techniques.  
+The system helps in understanding how various factors such as gender, parental education, and test preparation affect student results.
 
+## Project Overview
 
-A comprehensive web application built with Streamlit for analyzing and predicting student academic performance using machine learning models. The system provides dashboards for professors and students, performance insights, and predictive analytics.
+The Student Performance Prediction System uses historical student data to:
+- Analyze academic patterns
+- Predict student scores
+- Provide insights for better academic planning
+
+The project includes data preprocessing, exploratory data analysis, model training, and a user-friendly web interface.
+
+## Dataset
+
+- Dataset: Students Performance in Exams
+- Source: Kaggle
+- Attributes include:
+  - Gender
+  - Race/Ethnicity
+  - Parental level of education
+  - Lunch type
+  - Test preparation course
+  - Math score
+  - Reading score
+  - Writing score
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Streamlit
+- Git & GitHub
+
+## Machine Learning Models
+
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+
+The best-performing model is selected based on evaluation metrics.
 
 ## Features
 
-- **Role-Based Access**: Separate login portals for professors and students.
-- **Interactive Dashboards**: Visualize academic data with charts and statistics.
-- **Performance Prediction**: Predict SGPA, Percentage, and Total Marks using pre-trained ML models.
-- **Data Analysis**: Explore semester-wise performance trends and course analytics.
-- **MongoDB Integration**: Secure storage and retrieval of student records.
-- **Automated Reporting**: Generate test reports and prediction results.
+- Data analysis and visualization
+- Student score prediction
+- Interactive Streamlit interface
+- Easy-to-use input system
+- Real-time prediction output
 
-## Installation
+## How to Run the Project
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/username/student-performance-analysis.git
-   ```
+1. Clone the repository
+2. Install required packages:
+3. Run the application:
 
-2. **Install Dependencies**
-  ```bash
-  pip install -r requirements.txt
-  ```
+## Deployment
 
-3. **Set Up MongoDB**
-  - Install MongoDB locally and start the service on `mongodb://localhost:27017`.
-  - Create a database named `college_db` with collections `professors` and `students`.
+The project is deployed using Streamlit Cloud.
 
-4. **Run the Application**
-   ```bash
-   streamlit run main.py
-   ```
+Live Demo: (add link after deployment)
+
+## Future Enhancements
+
+- Add more performance factors
+- Improve model accuracy
+- Add student-wise performance reports
+- Integrate database support
+
+---
+
+**Note:**  
+This project is implemented and deployed as part of learning machine learning concepts and practical application development.
