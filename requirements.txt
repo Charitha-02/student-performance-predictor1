@@ -1,12 +1,7 @@
-pandas
-matplotlib
-plotly
-seaborn
-scikit-learn
-xgboost
 streamlit
 streamlit-option-menu
-openpyxl 
-xlsxwriter
-pytest
-pytest-html
+pandas
+numpy
+scikit-learn
+plotly
+matplotlib
